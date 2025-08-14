@@ -1,7 +1,7 @@
 # IPATool
 
-[![Release](https://img.shields.io/github/release/majd/ipatool.svg?label=Release)](https://GitHub.com/majd/ipatool/releases/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/majd/ipatool/blob/main/LICENSE)
+[![Release](https://img.shields.io/github/release/majd/ipatool.svg?label=Release)](https://github.com/jchillerup/ipatool/releases/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/jchillerup/ipatool/blob/main/LICENSE)
 
 `ipatool` is a command line tool that allows you to search for iOS apps on the [App Store](https://apps.apple.com) and download a copy of the app package, known as an _ipa_ file.
 
@@ -14,8 +14,8 @@
 - [Usage](#usage)
 - [Compiling](#compiling)
 - [License](#license)
-- [Releases](https://github.com/majd/ipatool/releases)
-- [FAQ](https://github.com/majd/ipatool/wiki/FAQ)
+- [Releases](https://github.com/jchillerup/ipatool/releases)
+- [FAQ](https://github.com/jchillerup/ipatool/wiki/FAQ)
 
 ## Requirements
 
@@ -26,7 +26,7 @@
 
 ### Manual
 
-You can grab the latest version of `ipatool` from [GitHub releases](https://github.com/majd/ipatool/releases).
+You can grab the latest version of `ipatool` from [GitHub releases](https://github.com/jchillerup/ipatool/releases).
 
 ### Package Manager (macOS)
 
@@ -176,10 +176,10 @@ $ go build -o ipatool
 Unit tests can be executed with the following commands.
 
 ```shell
-$ go generate github.com/majd/ipatool/...
-$ go test -v github.com/majd/ipatool/...
+$ go generate github.com/jchillerup/ipatool/...
+$ go test -v github.com/jchillerup/ipatool/...
 ```
 
 ## License
 
-IPATool is released under the [MIT license](https://github.com/majd/ipatool/blob/main/LICENSE).
+IPATool is released under the [MIT license](https://github.com/jchillerup/ipatool/blob/main/LICENSE).

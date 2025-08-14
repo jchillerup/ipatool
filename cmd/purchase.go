@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/avast/retry-go"
-	"github.com/majd/ipatool/v2/pkg/appstore"
+	"github.com/jchillerup/ipatool/v2/pkg/appstore"
 	"github.com/spf13/cobra"
 )
 
